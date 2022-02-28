@@ -31543,10 +31543,10 @@ var $async$lw=A.a_(function(a,b){if(a===1)return A.a2(b,r)
 while(true)switch(s){case 0:p=$.xh()
 o=t.lo
 s=2
-return A.am(p.br(0,"/sfx/up.wav").bu(0,new A.PG(q),o),$async$lw)
+return A.am(p.br(0,"sfx/up.wav").bu(0,new A.PG(q),o),$async$lw)
 case 2:q.y=b
 s=3
-return A.am(p.br(0,"/sfx/down.wav").bu(0,new A.PH(q),o),$async$lw)
+return A.am(p.br(0,"sfx/down.wav").bu(0,new A.PH(q),o),$async$lw)
 case 3:q.z=b
 return A.a3(null,r)}})
 return A.a4($async$lw,r)},
@@ -31651,7 +31651,7 @@ A.a1X.prototype={
 $0(){A.kY(this.a).n1(0,null)},
 $S:1}
 A.BY.prototype={
-G(a,b){var s=null,r=b.W(t.l).f.a.a,q=A.aln(s,s,new A.pc("/images/music.jpg",s,s)),p=A.io("Metronom",A.ax(b).a4.a,s,s),o=t.E
+G(a,b){var s=null,r=b.W(t.l).f.a.a,q=A.aln(s,s,new A.pc("images/music.jpg",s,s)),p=A.io("Metronom",A.ax(b).a4.a,s,s),o=t.E
 return A.XA(s,A.lk(B.bu,A.a([new A.qs(q,B.AM,s),A.m3(new A.la(A.ye(A.a([p,B.V5,A.nu(B.Yx,s,r>500?r*0.5:r*0.7),B.hN,new A.tm(new A.Ug(b),"Metronom starten!",s)],o),B.aI,B.b1,B.b2),B.Ct,s),s,s)],o),B.Vd,s,s))}}
 A.Ug.prototype={
 $0(){var s=A.kY(this.a),r=new A.vD(s.gAU(),"/setup",null,B.fm).XV(s,B.i2)
