@@ -4,8 +4,8 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "aaa3ba8b7b5ca12017f04e03d1e3d52f",
-"index.html": "d4e4c9526587b0eb9ff556249e1be909",
-"/": "d4e4c9526587b0eb9ff556249e1be909",
+"index.html": "03446571599606675665964787db4210",
+"/": "03446571599606675665964787db4210",
 "main.dart.js": "75aec306cd19135f24eeead1b3f2e9c9",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
@@ -13,13 +13,17 @@ const RESOURCES = {
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "44e85eb311278ee95904517f675397b3",
-"web_assets/AssetManifest.json": "c8f6b3ac94018d020d13fbe87b007993",
-"web_assets/NOTICES": "42d2612e1fa454dfe34cb4d49e993530",
-"web_assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"web_assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"web_assets/assets/images/music.jpg": "4f6374d8067f9a98981d3e0606d8f3f8",
-"web_assets/assets/sfx/down.wav": "05772c727793437d33fbbb207db09570",
-"web_assets/assets/sfx/up.wav": "59434541374a88858e360092579bfad1"
+"assets/AssetManifest.json": "c8f6b3ac94018d020d13fbe87b007993",
+"assets/NOTICES": "42d2612e1fa454dfe34cb4d49e993530",
+"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/assets/images/music.jpg": "4f6374d8067f9a98981d3e0606d8f3f8",
+"assets/assets/sfx/down.wav": "05772c727793437d33fbbb207db09570",
+"assets/assets/sfx/up.wav": "59434541374a88858e360092579bfad1",
+"canvaskit/canvaskit.js": "43fa9e17039a625450b6aba93baf521e",
+"canvaskit/profiling/canvaskit.js": "f3bfccc993a1e0bfdd3440af60d99df4",
+"canvaskit/profiling/canvaskit.wasm": "a9610cf39260f60fbe7524a785c66101",
+"canvaskit/canvaskit.wasm": "04ed3c745ff1dee16504be01f9623498"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -28,9 +32,9 @@ const CORE = [
   "/",
 "main.dart.js",
 "index.html",
-"web_assets/NOTICES",
-"web_assets/AssetManifest.json",
-"web_assets/FontManifest.json"];
+"assets/NOTICES",
+"assets/AssetManifest.json",
+"assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
