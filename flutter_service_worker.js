@@ -13,13 +13,13 @@ const RESOURCES = {
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "manifest.json": "44e85eb311278ee95904517f675397b3",
-"assets/AssetManifest.json": "c8f6b3ac94018d020d13fbe87b007993",
-"assets/NOTICES": "42d2612e1fa454dfe34cb4d49e993530",
-"assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/assets/images/music.jpg": "4f6374d8067f9a98981d3e0606d8f3f8",
-"assets/assets/sfx/down.wav": "05772c727793437d33fbbb207db09570",
-"assets/assets/sfx/up.wav": "59434541374a88858e360092579bfad1"
+"web_assets/AssetManifest.json": "c8f6b3ac94018d020d13fbe87b007993",
+"web_assets/NOTICES": "42d2612e1fa454dfe34cb4d49e993530",
+"web_assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
+"web_assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"web_assets/assets/images/music.jpg": "4f6374d8067f9a98981d3e0606d8f3f8",
+"web_assets/assets/sfx/down.wav": "05772c727793437d33fbbb207db09570",
+"web_assets/assets/sfx/up.wav": "59434541374a88858e360092579bfad1"
 };
 
 // The application shell files that are downloaded before a service worker can
@@ -28,9 +28,9 @@ const CORE = [
   "/",
 "main.dart.js",
 "index.html",
-"assets/NOTICES",
-"assets/AssetManifest.json",
-"assets/FontManifest.json"];
+"web_assets/NOTICES",
+"web_assets/AssetManifest.json",
+"web_assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
 self.addEventListener("install", (event) => {
   self.skipWaiting();
