@@ -1,4 +1,0 @@
-enum ElementsPosition {
-  inside,
-  outside,
-}
