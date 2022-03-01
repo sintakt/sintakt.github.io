@@ -80,8 +80,8 @@ class _ClickViewState extends State<ClickView> {
               Navigator.pop(context);
             },
             child: Container(
-              width: 40,
-              height: 40,
+              width: 60,
+              height: 60,
               child: const Icon(Icons.close),
               decoration: BoxDecoration(
                   color: Theme.of(context).cardColor,
@@ -90,7 +90,7 @@ class _ClickViewState extends State<ClickView> {
                     BoxShadow(
                         blurRadius: 30,
                         color: Colors.black12,
-                        offset: const Offset(0, 10)),
+                        offset: Offset(0, 10)),
                   ]),
             ),
           ),

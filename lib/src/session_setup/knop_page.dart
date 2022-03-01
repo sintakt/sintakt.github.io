@@ -105,7 +105,7 @@ class _KnobPageState extends State<KnobPage> {
                     tickStyle:
                         ControlTickStyle(count: 100, margin: 20, width: 0.5),
                     glowColor: Colors.transparent,
-                    shadowColor: Colors.black),
+                    shadowColor: Colors.black26),
                 pointerStyle: PointerStyle(color: Colors.black, offset: 10),
                 minorTickStyle: MinorTickStyle(
                     color: Colors.transparent,

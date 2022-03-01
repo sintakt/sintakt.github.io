@@ -90,11 +90,11 @@ class ClickPlayer {
   }
 
   Future<void> _loadSounds() async {
-    _up = await rootBundle.load("/sfx/up.wav").then((ByteData soundData) {
+    _up = await rootBundle.load("sfx/up.wav").then((ByteData soundData) {
       return _pool.load(soundData);
     });
 
-    _down = await rootBundle.load("/sfx/down.wav").then((ByteData soundData) {
+    _down = await rootBundle.load("sfx/down.wav").then((ByteData soundData) {
       return _pool.load(soundData);
     });
   }
@@ -120,7 +120,7 @@ class ClickPlayer {
   }
 
   Duration remainingDuration() {
-    if (beatAmount < 0) return totalDuration();
+    if (beatAmount < 1 || bpm == startBPM) return totalDuration();
     double mSeconds = 0;
     double pBPM = bpm;
     for (int i = steps * clicksPerBar * barsPerStep + beatAmount;

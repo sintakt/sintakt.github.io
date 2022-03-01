@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:accelerating_metronome/src/session_setup/page_view.dart';
 import 'package:accelerating_metronome/src/ui_components/rounded_card.dart';
 import 'package:accelerating_metronome/src/ui_components/scale_button.dart';
@@ -22,7 +20,7 @@ class MainMenu extends StatelessWidget {
       fit: StackFit.expand,
       children: [
         Image.asset(
-          "/images/music.jpg",
+          "images/music.jpg",
           fit: BoxFit.cover,
         ),
         Center(
@@ -31,15 +29,16 @@ class MainMenu extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Text("Metronom", style: Theme.of(context).textTheme.headline1),
+                Text("Sintakt", style: Theme.of(context).textTheme.headline1),
                 const SizedBox(
                   height: 10,
                 ),
                 SizedBox(
                   width: w > 500 ? w * 0.5 : w * 0.7,
-                  child: const Text(
-                    "Dieses Metronom erhöht nach einer festgelegten Taktanzahl das Tempo schrittweise. So lassen sich schwierige Stellen systematisch und effizient einüben.",
+                  child: Text(
+                    "Ein Übungsmetronom, das das Tempo schrittweise erhöht.",
                     textAlign: TextAlign.center,
+                    style: Theme.of(context).textTheme.bodyText1!,
                   ),
                 ),
                 const SizedBox(

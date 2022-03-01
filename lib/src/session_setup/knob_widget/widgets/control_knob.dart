@@ -20,7 +20,7 @@ class ControlKnob extends StatelessWidget {
       transform: Matrix4.rotationZ(2 * pi * rotation),
       alignment: Alignment.center,
       child: Material(
-        elevation: 10,
+        elevation: 0,
         shape: const CircleBorder(),
         shadowColor: style.controlStyle.shadowColor,
         child: Container(
@@ -31,10 +31,10 @@ class ControlKnob extends StatelessWidget {
               shape: BoxShape.circle,
               boxShadow: [
                 BoxShadow(
-                  color: style.controlStyle.glowColor,
-                  blurRadius: 1.0,
-                  spreadRadius: 1.0,
-                  offset: const Offset(0.0, 1.0),
+                  color: style.controlStyle.shadowColor,
+                  blurRadius: 10,
+                  spreadRadius: 0,
+                  offset: const Offset(0.0, 0),
                 )
               ]),
           child: Stack(

@@ -34,7 +34,6 @@ class _SetupPagesState extends State<SetupPages> {
 
   @override
   Widget build(BuildContext context) {
-    double _w = MediaQuery.of(context).size.width;
     return Scaffold(
       appBar: AppBar(
         title: const Text("Neue Übungsphase"),
