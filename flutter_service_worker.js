@@ -4,15 +4,15 @@ const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
   "version.json": "aaa3ba8b7b5ca12017f04e03d1e3d52f",
-"index.html": "001fab330ebdfdb1fcfaa1f329810264",
-"/": "001fab330ebdfdb1fcfaa1f329810264",
+"index.html": "ae54d781ed637bb584c0f2f766abeaad",
+"/": "ae54d781ed637bb584c0f2f766abeaad",
 "main.dart.js": "d291eb7fb0b50c6198f1f39e1f064332",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "44e85eb311278ee95904517f675397b3",
+"manifest.json": "83034af115959f3322da162eb133ea50",
 "assets/images/music.jpg": "4f6374d8067f9a98981d3e0606d8f3f8",
 "assets/sfx/down.wav": "05772c727793437d33fbbb207db09570",
 "assets/sfx/up.wav": "59434541374a88858e360092579bfad1",

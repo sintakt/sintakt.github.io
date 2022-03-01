@@ -1,11 +1,11 @@
 {
-    "name": "accelerating_metronome",
-    "short_name": "accelerating_metronome",
+    "name": "Sintakt Metronom",
+    "short_name": "Sintakt",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Ein adaptives Metronom",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
